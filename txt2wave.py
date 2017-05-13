@@ -77,7 +77,7 @@ def text_to_speech(txt, lang):
     os.system('rm /tmp/out.wav')
 
 def print_usage():
-	print(
+    print(
 	'''Usage: text2wav.py [option] [-i|--input_text_file text_file]
 Without -i option verifies if there is a text copied to clipboard
 
